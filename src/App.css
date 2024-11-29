@@ -1,0 +1,22 @@
+
+
+body{
+  overflow-x: hidden;
+  font-family: cursive;
+}
+
+@media (max-width: 767px){
+    body{
+        font-size: small;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    div{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
